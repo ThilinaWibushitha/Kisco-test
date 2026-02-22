@@ -1,0 +1,14 @@
+{
+    "files.watcherExclude": {
+        "**/node_modules/**": true,
+        "**/android/.gradle/**": true,
+        "**/.gradle/**": true
+    },
+    "files.exclude": {
+        "**/node_modules/**/android/build.gradle": false
+    },
+    "search.exclude": {
+        "**/node_modules": true
+    },
+    "groovyLint.enable": false
+}

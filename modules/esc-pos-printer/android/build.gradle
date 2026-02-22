@@ -1,0 +1,22 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'expo.modules.escposprinter'
+version = '1.0.0'
+
+android {
+    namespace "expo.modules.escposprinter"
+    defaultConfig {
+        minSdkVersion 21
+        versionCode 1
+        versionName "1.0.0"
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+}
